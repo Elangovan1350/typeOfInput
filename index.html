@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Total input form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        text-transform: capitalize;
+        font-family: 'Poppins', sans-serif;
+      }
+      body {
+        background-color: rgb(211, 151, 151);
+      }
+
+      div {
+        border: 3px solid rgb(7, 0, 0);
+        padding: 50px;
+        margin: 50px 0;
+      }
+
+      label {
+        margin-right: 5px;
+        font-weight: 900;
+      }
+      h1 {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+      .button {
+        border: none;
+        padding: 10px 20px;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <form action="">
+        <h1>Various Type Of Input Form</h1>
+        <div>
+          <label for="">text</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label for="">password</label>
+          <input type="password" />
+        </div>
+        <div>
+          <label for="">email</label>
+          <input type="email" />
+        </div>
+        <div>
+          <label for="">url</label>
+          <input type="url" />
+        </div>
+        <div>
+          <label for="">search</label>
+          <input type="search" />
+        </div>
+        <div>
+          <label for="">telephone</label>
+          <input type="tel" />
+        </div>
+        <div>
+          <label for="">number</label>
+          <input type="number" />
+        </div>
+        <div>
+          <label for="">file</label>
+          <input type="file" />
+        </div>
+        <div>
+          <label for="">image</label>
+          <input
+            type="image"
+            src="./720px-Vijay_at_the_Nadigar_Sangam_Protest.jpg"
+            height="100px"
+          />
+        </div>
+        <div>
+          <label for="">color</label>
+          <input type="color" />
+        </div>
+        <div>
+          <label for="">datetime</label>
+          <input type="datetime" />
+        </div>
+
+        <div>
+          <label for="">date</label>
+          <input type="date" />
+        </div>
+        <div>
+          <label for="">datetime-local</label>
+          <input type="datetime-local" />
+        </div>
+        <div>
+          <label for="">month</label>
+          <input type="month" />
+        </div>
+        <div>
+          <label for="">week</label>
+          <input type="week" />
+        </div>
+        <div>
+          <label for="">time</label>
+          <input type="time" />
+        </div>
+        <div>
+          <label for="">range</label>
+          <input type="range" max="100" min="1" value="90" />
+        </div>
+        <div>
+          <label for="gender">Gender :</label>
+          <input type="radio" name="gender" id="" value="male" />Male
+          <input type="radio" name="gender" id="" value="female" />Female
+          <input type="radio" name="gender" id="" value="other" />Other
+        </div>
+
+        <div>
+          <label for="">it"s hidden here</label>
+          <input type="hidden" />
+        </div>
+        <div>
+          <label for="">button</label>
+          <input type="button" value="button" />
+        </div>
+        <div>
+          <input type="checkbox" name="" id="" /> I agree to the all term and
+          condition
+        </div>
+        <div>
+          <input type="submit" value="SUBMIT" class="button" />
+          <input type="reset" value="RESET" class="button" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
